@@ -1,0 +1,12 @@
+name: lunch
+channels:
+  - conda-forge
+  - anaconda
+dependencies:
+  - python=3.7
+  - numpy
+  - scikit-learn
+  - pandas
+  - seaborn
+  - matplotlib
+  - jupyterlab
