@@ -1,0 +1,2818 @@
+{
+    "algorithm": "random_forest",
+    "execution_time": "21 mins, 25 secs",
+    "best_score": 0.6069277181000055,
+    "best_params": {
+        "anova__k": 11,
+        "rf__max_depth": null,
+        "rf__min_samples_leaf": 10,
+        "rf__min_samples_split": 10,
+        "rf__n_estimators": 500
+    },
+    "n_folds": 5,
+    "n_iter": 200,
+    "search_params": [
+        {
+            "anova__k": 5,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 7,
+            "rf__min_samples_split": 3,
+            "rf__n_estimators": 472
+        },
+        {
+            "anova__k": 7,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 10,
+            "rf__min_samples_split": 8,
+            "rf__n_estimators": 399
+        },
+        {
+            "anova__k": 8,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 10,
+            "rf__min_samples_split": 9,
+            "rf__n_estimators": 157
+        },
+        {
+            "anova__k": 2,
+            "rf__max_depth": 3,
+            "rf__min_samples_leaf": 7,
+            "rf__min_samples_split": 5,
+            "rf__n_estimators": 321
+        },
+        {
+            "anova__k": 7,
+            "rf__max_depth": null,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 3,
+            "rf__n_estimators": 64
+        },
+        {
+            "anova__k": 12,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 3,
+            "rf__min_samples_split": 4,
+            "rf__n_estimators": 456
+        },
+        {
+            "anova__k": 7,
+            "rf__max_depth": 3,
+            "rf__min_samples_leaf": 9,
+            "rf__min_samples_split": 5,
+            "rf__n_estimators": 137
+        },
+        {
+            "anova__k": 5,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 3,
+            "rf__min_samples_split": 2,
+            "rf__n_estimators": 87
+        },
+        {
+            "anova__k": 8,
+            "rf__max_depth": null,
+            "rf__min_samples_leaf": 9,
+            "rf__min_samples_split": 6,
+            "rf__n_estimators": 437
+        },
+        {
+            "anova__k": 3,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 2,
+            "rf__min_samples_split": 2,
+            "rf__n_estimators": 241
+        },
+        {
+            "anova__k": 14,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 5,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 14,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 4,
+            "rf__min_samples_split": 4,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 14,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 10,
+            "rf__min_samples_split": 2,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 14,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 10,
+            "rf__min_samples_split": 2,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 13,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 10,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 11,
+            "rf__max_depth": null,
+            "rf__min_samples_leaf": 10,
+            "rf__min_samples_split": 10,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 13,
+            "rf__max_depth": null,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 2,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 11,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 10,
+            "rf__min_samples_split": 10,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 14,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 5,
+            "rf__min_samples_split": 10,
+            "rf__n_estimators": 5
+        },
+        {
+            "anova__k": 11,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 10,
+            "rf__min_samples_split": 7,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 11,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 10,
+            "rf__min_samples_split": 8,
+            "rf__n_estimators": 5
+        },
+        {
+            "anova__k": 11,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 10,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 11,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 10,
+            "rf__min_samples_split": 2,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 11,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 10,
+            "rf__min_samples_split": 8,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 11,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 6,
+            "rf__min_samples_split": 8,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 11,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 3,
+            "rf__min_samples_split": 8,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 11,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 7,
+            "rf__min_samples_split": 10,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 11,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 10,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 11,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 2,
+            "rf__min_samples_split": 9,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 11,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 3,
+            "rf__min_samples_split": 2,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 10,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 5,
+            "rf__min_samples_split": 6,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 11,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 7,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 11,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 7,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 11,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 2,
+            "rf__min_samples_split": 8,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 11,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 10,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 11,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 7,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 11,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 5,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 11,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 4,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 11,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 8,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 11,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 10,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 11,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 7,
+            "rf__min_samples_split": 10,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 11,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 9,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 11,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 3,
+            "rf__min_samples_split": 10,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 11,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 5,
+            "rf__min_samples_split": 7,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 11,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 4,
+            "rf__min_samples_split": 8,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 11,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 2,
+            "rf__min_samples_split": 6,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 11,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 10,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 11,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 9,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 11,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 9,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 11,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 10,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 11,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 6,
+            "rf__min_samples_split": 5,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 11,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 8,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 11,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 4,
+            "rf__min_samples_split": 10,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 11,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 5,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 11,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 10,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 11,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 3,
+            "rf__min_samples_split": 9,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 11,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 10,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 11,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 10,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 11,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 10,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 11,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 10,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 11,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 9,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 11,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 10,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 11,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 2,
+            "rf__min_samples_split": 10,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 11,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 2,
+            "rf__min_samples_split": 9,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 11,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 2,
+            "rf__min_samples_split": 10,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 11,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 10,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 11,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 8,
+            "rf__min_samples_split": 10,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 11,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 7,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 11,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 8,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 11,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 9,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 11,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 3,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 11,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 7,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 11,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 10,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 11,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 10,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 11,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 10,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 11,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 5,
+            "rf__min_samples_split": 10,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 11,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 5,
+            "rf__min_samples_split": 10,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 11,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 2,
+            "rf__min_samples_split": 9,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 10,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 2,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 11,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 10,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 12,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 6,
+            "rf__min_samples_split": 10,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 11,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 10,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 11,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 10,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 10,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 2,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 11,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 6,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 10,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 2,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 10,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 2,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 11,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 2,
+            "rf__min_samples_split": 7,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 11,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 8,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 11,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 5,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 11,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 4,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 10,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 4,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 11,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 8,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 10,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 10,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 11,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 3,
+            "rf__min_samples_split": 10,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 11,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 10,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 11,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 2,
+            "rf__min_samples_split": 10,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 11,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 10,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 11,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 10,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 11,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 9,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 11,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 7,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 11,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 10,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 10,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 10,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 11,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 10,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 10,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 10,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 11,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 5,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 11,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 10,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 11,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 3,
+            "rf__min_samples_split": 9,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 11,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 9,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 11,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 9,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 11,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 7,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 11,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 6,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 11,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 5,
+            "rf__min_samples_split": 9,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 10,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 8,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 10,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 10,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 11,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 7,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 11,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 8,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 11,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 6,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 11,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 10,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 10,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 10,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 10,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 9,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 10,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 6,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 10,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 10,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 11,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 10,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 10,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 10,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 10,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 9,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 10,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 5,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 10,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 10,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 10,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 10,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 11,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 7,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 11,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 9,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 11,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 8,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 11,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 2,
+            "rf__min_samples_split": 8,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 10,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 10,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 10,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 10,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 11,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 2,
+            "rf__min_samples_split": 6,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 10,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 7,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 11,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 9,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 10,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 4,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 11,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 3,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 11,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 9,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 10,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 10,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 11,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 2,
+            "rf__min_samples_split": 9,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 10,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 10,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 10,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 10,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 10,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 10,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 11,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 9,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 10,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 7,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 10,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 8,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 10,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 10,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 11,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 8,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 11,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 10,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 11,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 10,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 11,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 10,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 10,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 10,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 10,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 10,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 10,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 10,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 10,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 10,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 10,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 10,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 11,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 2,
+            "rf__min_samples_split": 10,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 11,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 10,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 11,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 9,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 11,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 10,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 10,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 10,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 11,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 8,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 10,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 10,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 10,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 10,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 10,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 10,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 11,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 10,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 10,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 10,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 10,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 10,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 11,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 10,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 10,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 9,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 11,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 10,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 11,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 2,
+            "rf__min_samples_split": 10,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 10,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 9,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 11,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 4,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 10,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 10,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 11,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 8,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 11,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 7,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 10,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 10,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 10,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 6,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 11,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 2,
+            "rf__min_samples_split": 7,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 11,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 10,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 11,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 2,
+            "rf__min_samples_split": 10,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 10,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 10,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 10,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 10,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 10,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 10,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 11,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 7,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 11,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 10,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 11,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 10,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 11,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 7,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 11,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 10,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 11,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 10,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 11,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 10,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 11,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 10,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 10,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 10,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 10,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 8,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 10,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 1,
+            "rf__min_samples_split": 10,
+            "rf__n_estimators": 500
+        },
+        {
+            "anova__k": 11,
+            "rf__max_depth": 7,
+            "rf__min_samples_leaf": 2,
+            "rf__min_samples_split": 7,
+            "rf__n_estimators": 500
+        }
+    ],
+    "test_scores": [
+        [
+            0.5274463007159905,
+            0.5325714285714286,
+            0.5471698113207546,
+            0.4958083832335329,
+            0.5135802469135803
+        ],
+        [
+            0.5330132052821128,
+            0.5333333333333333,
+            0.5483091787439613,
+            0.50187265917603,
+            0.5154130702836006
+        ],
+        [
+            0.5346062052505968,
+            0.5467128027681661,
+            0.551219512195122,
+            0.5056320400500626,
+            0.5181476846057572
+        ],
+        [
+            0.49818621523579193,
+            0.49093107617896004,
+            0.5073170731707317,
+            0.4538043478260869,
+            0.46170442286947144
+        ],
+        [
+            0.4709480122324159,
+            0.49632892804698975,
+            0.488673139158576,
+            0.43369734789391573,
+            0.44822256568778973
+        ],
+        [
+            0.613157894736842,
+            0.6105527638190955,
+            0.6258148631029988,
+            0.5603217158176943,
+            0.5994694960212202
+        ],
+        [
+            0.5185185185185185,
+            0.5101311084624552,
+            0.5294117647058824,
+            0.4796954314720812,
+            0.5058548009367682
+        ],
+        [
+            0.5128805620608899,
+            0.5294117647058825,
+            0.5514792899408284,
+            0.48867699642431467,
+            0.5208845208845209
+        ],
+        [
+            0.5442875481386393,
+            0.5572139303482587,
+            0.5721649484536082,
+            0.4980132450331125,
+            0.5149544863459038
+        ],
+        [
+            0.5111111111111111,
+            0.4934210526315789,
+            0.5192307692307693,
+            0.4718562874251497,
+            0.48423707440100877
+        ],
+        [
+            0.6127320954907162,
+            0.6075949367088607,
+            0.624505928853755,
+            0.5616438356164385,
+            0.5877659574468085
+        ],
+        [
+            0.6100795755968171,
+            0.6078184110970997,
+            0.6223958333333334,
+            0.5648648648648649,
+            0.5936675461741426
+        ],
+        [
+            0.6065359477124183,
+            0.6119402985074627,
+            0.6214833759590793,
+            0.5625841184387618,
+            0.5947368421052631
+        ],
+        [
+            0.6068601583113458,
+            0.6042446941323345,
+            0.6215864759427828,
+            0.5579514824797844,
+            0.5921052631578947
+        ],
+        [
+            0.6086956521739131,
+            0.6042446941323345,
+            0.6308900523560209,
+            0.5629228687415426,
+            0.5938748335552597
+        ],
+        [
+            0.6172506738544475,
+            0.6223337515683814,
+            0.6336375488917861,
+            0.5670391061452513,
+            0.5943775100401606
+        ],
+        [
+            0.566990291262136,
+            0.6015037593984962,
+            0.6019047619047618,
+            0.5,
+            0.553030303030303
+        ],
+        [
+            0.6171574903969271,
+            0.6045949214026602,
+            0.6144121365360303,
+            0.5661375661375662,
+            0.5948717948717949
+        ],
+        [
+            0.582109479305741,
+            0.5618247298919568,
+            0.5971316818774446,
+            0.5442359249329759,
+            0.573248407643312
+        ],
+        [
+            0.6093552465233881,
+            0.604368932038835,
+            0.616751269035533,
+            0.5570291777188329,
+            0.5925925925925926
+        ],
+        [
+            0.5981308411214954,
+            0.5840490797546013,
+            0.6063694267515924,
+            0.5529100529100528,
+            0.5685019206145967
+        ],
+        [
+            0.6134020618556701,
+            0.6051660516605166,
+            0.6165605095541402,
+            0.5594594594594594,
+            0.5921052631578947
+        ],
+        [
+            0.6149936467598475,
+            0.599758162031439,
+            0.6142131979695432,
+            0.5574636723910171,
+            0.5905006418485238
+        ],
+        [
+            0.6165605095541402,
+            0.6048780487804879,
+            0.620253164556962,
+            0.559254327563249,
+            0.5943877551020409
+        ],
+        [
+            0.614596670934699,
+            0.6061349693251534,
+            0.6159695817490494,
+            0.5626666666666665,
+            0.5874673629242819
+        ],
+        [
+            0.6181818181818182,
+            0.6104218362282878,
+            0.6215864759427828,
+            0.5588235294117647,
+            0.5953002610966057
+        ],
+        [
+            0.6079182630906769,
+            0.6070991432068543,
+            0.6189258312020459,
+            0.5641711229946524,
+            0.5847347994825355
+        ],
+        [
+            0.6113989637305699,
+            0.6044226044226043,
+            0.6235446313065977,
+            0.5560053981106612,
+            0.5944517833553502
+        ],
+        [
+            0.6116129032258064,
+            0.6100861008610086,
+            0.6243523316062176,
+            0.5595716198125837,
+            0.5970937912813739
+        ],
+        [
+            0.6121919584954605,
+            0.6115906288532675,
+            0.6219354838709678,
+            0.5588235294117647,
+            0.5910290237467017
+        ],
+        [
+            0.6106870229007634,
+            0.6092233009708738,
+            0.6173469387755103,
+            0.5672436750998668,
+            0.5165394402035624
+        ],
+        [
+            0.6139896373056996,
+            0.6046511627906976,
+            0.6217616580310881,
+            0.5614035087719298,
+            0.5871559633027522
+        ],
+        [
+            0.6181818181818182,
+            0.6069651741293532,
+            0.6285714285714286,
+            0.5602165087956699,
+            0.5933774834437086
+        ],
+        [
+            0.6126126126126127,
+            0.6113861386138614,
+            0.6227390180878553,
+            0.5606469002695418,
+            0.5926892950391645
+        ],
+        [
+            0.6141935483870967,
+            0.6106304079110012,
+            0.6201550387596899,
+            0.5614035087719298,
+            0.5908496732026144
+        ],
+        [
+            0.6171875000000001,
+            0.6076260762607626,
+            0.6217616580310881,
+            0.5606469002695418,
+            0.5931758530183728
+        ],
+        [
+            0.610608020698577,
+            0.6083743842364531,
+            0.6199740596627755,
+            0.5503355704697988,
+            0.5879265091863517
+        ],
+        [
+            0.614785992217899,
+            0.6036809815950921,
+            0.6183699870633893,
+            0.5555555555555556,
+            0.5894736842105263
+        ],
+        [
+            0.610608020698577,
+            0.6123456790123456,
+            0.6251621271076524,
+            0.5567567567567567,
+            0.5931758530183728
+        ],
+        [
+            0.6137841352405722,
+            0.6071871127633209,
+            0.6209573091849936,
+            0.5594594594594594,
+            0.5925925925925926
+        ],
+        [
+            0.6179487179487179,
+            0.609547123623011,
+            0.6147959183673469,
+            0.5645805592543276,
+            0.5885416666666666
+        ],
+        [
+            0.6179921773142113,
+            0.6036809815950921,
+            0.6233766233766234,
+            0.5625841184387618,
+            0.5883905013192613
+        ],
+        [
+            0.6126126126126127,
+            0.6068796068796068,
+            0.6183699870633893,
+            0.5610738255033557,
+            0.5921052631578947
+        ],
+        [
+            0.6151866151866152,
+            0.6100861008610086,
+            0.6195372750642674,
+            0.5595716198125837,
+            0.5916230366492146
+        ],
+        [
+            0.6175710594315246,
+            0.6104218362282878,
+            0.6219354838709678,
+            0.5603217158176943,
+            0.5942408376963351
+        ],
+        [
+            0.6126126126126127,
+            0.603448275862069,
+            0.6189856957087126,
+            0.557510148849797,
+            0.5902503293807642
+        ],
+        [
+            0.6098191214470285,
+            0.6083743842364531,
+            0.6201550387596899,
+            0.5591397849462365,
+            0.5886990801576872
+        ],
+        [
+            0.6121919584954605,
+            0.6093366093366095,
+            0.6259740259740261,
+            0.5609756097560976,
+            0.5940337224383917
+        ],
+        [
+            0.6137841352405722,
+            0.6096654275092936,
+            0.6134020618556701,
+            0.5587044534412956,
+            0.5860709592641262
+        ],
+        [
+            0.6179921773142113,
+            0.605911330049261,
+            0.6249999999999999,
+            0.5579514824797844,
+            0.5907284768211921
+        ],
+        [
+            0.608695652173913,
+            0.6053921568627452,
+            0.6224489795918368,
+            0.559892328398385,
+            0.5899094437257438
+        ],
+        [
+            0.6137841352405722,
+            0.6044226044226043,
+            0.6181818181818182,
+            0.559892328398385,
+            0.5947368421052631
+        ],
+        [
+            0.6110397946084725,
+            0.6105006105006106,
+            0.6203346203346204,
+            0.5634178905206942,
+            0.5931758530183728
+        ],
+        [
+            0.6181818181818182,
+            0.6049382716049382,
+            0.6256544502617801,
+            0.557510148849797,
+            0.5944517833553502
+        ],
+        [
+            0.6139896373056996,
+            0.6086956521739131,
+            0.6264441591784339,
+            0.5617367706919946,
+            0.5913272010512484
+        ],
+        [
+            0.6116129032258064,
+            0.6053921568627452,
+            0.634590377113134,
+            0.5618279569892473,
+            0.5890052356020943
+        ],
+        [
+            0.6113989637305699,
+            0.605911330049261,
+            0.6177606177606177,
+            0.5610738255033557,
+            0.5947368421052631
+        ],
+        [
+            0.6141935483870967,
+            0.6121437422552664,
+            0.622107969151671,
+            0.5545087483176313,
+            0.5931758530183728
+        ],
+        [
+            0.6124031007751937,
+            0.6081582200247219,
+            0.6243523316062176,
+            0.5587044534412956,
+            0.5897771952817824
+        ],
+        [
+            0.614785992217899,
+            0.6064356435643565,
+            0.6159793814432989,
+            0.5630026809651475,
+            0.5955786736020806
+        ],
+        [
+            0.6139896373056996,
+            0.6104218362282878,
+            0.6225680933852139,
+            0.559892328398385,
+            0.5921052631578947
+        ],
+        [
+            0.6145833333333333,
+            0.6083743842364531,
+            0.6211340206185566,
+            0.5614035087719298,
+            0.5833333333333334
+        ],
+        [
+            0.6051282051282052,
+            0.6110429447852761,
+            0.6175710594315246,
+            0.559892328398385,
+            0.5860709592641262
+        ],
+        [
+            0.6110397946084725,
+            0.6086956521739131,
+            0.6229086229086229,
+            0.5572005383580081,
+            0.5900783289817232
+        ],
+        [
+            0.6098191214470285,
+            0.6124999999999999,
+            0.6209573091849936,
+            0.5614035087719298,
+            0.5913272010512484
+        ],
+        [
+            0.6173800259403373,
+            0.6091245376078914,
+            0.6225680933852139,
+            0.5591397849462365,
+            0.5921052631578947
+        ],
+        [
+            0.614596670934699,
+            0.6019417475728155,
+            0.619108280254777,
+            0.5554072096128171,
+            0.5933503836317134
+        ],
+        [
+            0.6127770534550195,
+            0.6113861386138614,
+            0.6321243523316064,
+            0.5579514824797844,
+            0.5908496732026144
+        ],
+        [
+            0.6090322580645161,
+            0.605911330049261,
+            0.629242819843342,
+            0.5570652173913043,
+            0.5950196592398427
+        ],
+        [
+            0.6179921773142113,
+            0.6096654275092936,
+            0.6277561608300908,
+            0.5587044534412956,
+            0.5923984272608127
+        ],
+        [
+            0.6139896373056996,
+            0.6098765432098765,
+            0.624187256176853,
+            0.5543478260869567,
+            0.5949535192563081
+        ],
+        [
+            0.614785992217899,
+            0.6111801242236025,
+            0.623207301173403,
+            0.5591397849462365,
+            0.5925925925925926
+        ],
+        [
+            0.6163849154746425,
+            0.6119402985074627,
+            0.6197916666666665,
+            0.5545087483176313,
+            0.5882352941176471
+        ],
+        [
+            0.6161879895561359,
+            0.6081582200247219,
+            0.6227390180878553,
+            0.5602165087956699,
+            0.5893089960886572
+        ],
+        [
+            0.6129870129870129,
+            0.6083743842364531,
+            0.6227390180878553,
+            0.5579514824797844,
+            0.5947368421052631
+        ],
+        [
+            0.6128205128205129,
+            0.6048780487804879,
+            0.6222791293213829,
+            0.5580774365821095,
+            0.5919165580182529
+        ],
+        [
+            0.6069142125480155,
+            0.6093366093366095,
+            0.6171574903969271,
+            0.5656836461126006,
+            0.5911458333333333
+        ],
+        [
+            0.6113989637305699,
+            0.6096654275092936,
+            0.6270967741935485,
+            0.5576407506702413,
+            0.5856209150326798
+        ],
+        [
+            0.6159793814432989,
+            0.6136919315403423,
+            0.6138107416879794,
+            0.5579514824797844,
+            0.5172855313700384
+        ],
+        [
+            0.6169934640522876,
+            0.6089108910891089,
+            0.6187419768934531,
+            0.5587044534412956,
+            0.5905511811023622
+        ],
+        [
+            0.6123521681997373,
+            0.6039603960396039,
+            0.6147959183673469,
+            0.563758389261745,
+            0.59375
+        ],
+        [
+            0.6129870129870129,
+            0.6136645962732918,
+            0.6193548387096774,
+            0.5633423180592992,
+            0.5910290237467017
+        ],
+        [
+            0.6134020618556701,
+            0.6054590570719602,
+            0.6219354838709678,
+            0.5540540540540541,
+            0.5926892950391645
+        ],
+        [
+            0.61003861003861,
+            0.6144430844553244,
+            0.6153846153846154,
+            0.5587044534412956,
+            0.5212903225806451
+        ],
+        [
+            0.6189856957087126,
+            0.6091245376078914,
+            0.6207792207792208,
+            0.5591397849462365,
+            0.5900783289817232
+        ],
+        [
+            0.6069142125480155,
+            0.6102941176470589,
+            0.6161745827984595,
+            0.557510148849797,
+            0.5224071702944942
+        ],
+        [
+            0.6128205128205129,
+            0.6159509202453987,
+            0.6153846153846154,
+            0.5625841184387618,
+            0.5135483870967743
+        ],
+        [
+            0.6108247422680412,
+            0.6106304079110012,
+            0.6175710594315246,
+            0.5560053981106612,
+            0.5871559633027522
+        ],
+        [
+            0.6153846153846154,
+            0.6064356435643565,
+            0.6219354838709678,
+            0.5572005383580081,
+            0.5963060686015831
+        ],
+        [
+            0.6163849154746425,
+            0.6081582200247219,
+            0.6225680933852139,
+            0.5567567567567567,
+            0.5934640522875817
+        ],
+        [
+            0.6153846153846154,
+            0.6121437422552664,
+            0.6217616580310881,
+            0.5606469002695418,
+            0.5845347313237222
+        ],
+        [
+            0.6130268199233717,
+            0.6144430844553244,
+            0.614596670934699,
+            0.5572005383580081,
+            0.5205128205128204
+        ],
+        [
+            0.6116129032258064,
+            0.6104218362282878,
+            0.6256544502617801,
+            0.5587044534412956,
+            0.5933774834437086
+        ],
+        [
+            0.614596670934699,
+            0.6119951040391677,
+            0.6198979591836734,
+            0.5625841184387618,
+            0.5261813537675607
+        ],
+        [
+            0.6124031007751937,
+            0.6113861386138614,
+            0.6227390180878553,
+            0.5580774365821095,
+            0.5931758530183728
+        ],
+        [
+            0.61003861003861,
+            0.6083743842364531,
+            0.6209573091849936,
+            0.559892328398385,
+            0.5911458333333333
+        ],
+        [
+            0.6119791666666666,
+            0.605911330049261,
+            0.6213093709884466,
+            0.5622489959839357,
+            0.5896103896103896
+        ],
+        [
+            0.6126126126126127,
+            0.605911330049261,
+            0.6213093709884466,
+            0.5591397849462365,
+            0.5913272010512484
+        ],
+        [
+            0.6129870129870129,
+            0.6029411764705882,
+            0.6225680933852139,
+            0.5579514824797844,
+            0.5900783289817232
+        ],
+        [
+            0.6167741935483871,
+            0.6129032258064516,
+            0.6243523316062176,
+            0.559892328398385,
+            0.5973684210526315
+        ],
+        [
+            0.616580310880829,
+            0.6083743842364531,
+            0.6238532110091743,
+            0.5579514824797844,
+            0.5939553219448095
+        ],
+        [
+            0.6197916666666665,
+            0.6083743842364531,
+            0.6185567010309277,
+            0.5606469002695418,
+            0.5955204216073781
+        ],
+        [
+            0.614012738853503,
+            0.6153846153846154,
+            0.6116751269035533,
+            0.5564516129032259,
+            0.5244215938303343
+        ],
+        [
+            0.6113989637305699,
+            0.6066584463625154,
+            0.6209573091849936,
+            0.5572005383580081,
+            0.5922077922077922
+        ],
+        [
+            0.6096938775510206,
+            0.6114494518879415,
+            0.6138107416879794,
+            0.5595716198125837,
+            0.5196451204055768
+        ],
+        [
+            0.6137841352405722,
+            0.6066584463625154,
+            0.624187256176853,
+            0.5587044534412956,
+            0.5876152832674572
+        ],
+        [
+            0.616580310880829,
+            0.6106304079110012,
+            0.623207301173403,
+            0.5576407506702413,
+            0.5890052356020943
+        ],
+        [
+            0.6124031007751937,
+            0.6044226044226043,
+            0.6295336787564767,
+            0.5595716198125837,
+            0.5911458333333333
+        ],
+        [
+            0.6159793814432989,
+            0.6104218362282878,
+            0.6262886597938145,
+            0.5594594594594594,
+            0.5955204216073781
+        ],
+        [
+            0.6141935483870967,
+            0.6051660516605166,
+            0.6251621271076524,
+            0.5552560646900269,
+            0.5942408376963351
+        ],
+        [
+            0.6157826649417854,
+            0.6051660516605166,
+            0.6235446313065977,
+            0.5518169582772544,
+            0.5913272010512484
+        ],
+        [
+            0.610608020698577,
+            0.6096654275092936,
+            0.6217616580310881,
+            0.5567567567567567,
+            0.5904255319148936
+        ],
+        [
+            0.6134020618556701,
+            0.6063569682151589,
+            0.6238767650834403,
+            0.5634178905206942,
+            0.5891472868217054
+        ],
+        [
+            0.6120358514724713,
+            0.609547123623011,
+            0.619108280254777,
+            0.563758389261745,
+            0.5172855313700384
+        ],
+        [
+            0.6104725415070242,
+            0.6099635479951397,
+            0.6163682864450128,
+            0.5622489959839357,
+            0.5127551020408163
+        ],
+        [
+            0.6214099216710184,
+            0.6089108910891089,
+            0.6285714285714286,
+            0.5579514824797844,
+            0.5886990801576872
+        ],
+        [
+            0.6121919584954605,
+            0.6049382716049382,
+            0.6225680933852139,
+            0.5621621621621622,
+            0.5879265091863517
+        ],
+        [
+            0.6179921773142113,
+            0.6076260762607626,
+            0.6267880364109232,
+            0.557510148849797,
+            0.5913272010512484
+        ],
+        [
+            0.6139896373056996,
+            0.6113861386138614,
+            0.6191709844559585,
+            0.557510148849797,
+            0.5902503293807642
+        ],
+        [
+            0.6147959183673469,
+            0.6114494518879415,
+            0.6126582278481013,
+            0.5588235294117647,
+            0.5212903225806451
+        ],
+        [
+            0.6161745827984595,
+            0.6112469437652812,
+            0.6197183098591549,
+            0.5622489959839357,
+            0.5242966751918159
+        ],
+        [
+            0.6082474226804124,
+            0.6127450980392157,
+            0.6132315521628497,
+            0.5576407506702413,
+            0.5217391304347826
+        ],
+        [
+            0.6183206106870228,
+            0.6065773447015834,
+            0.6198979591836734,
+            0.5622489959839357,
+            0.5224071702944942
+        ],
+        [
+            0.6131953428201812,
+            0.6076260762607626,
+            0.6225680933852139,
+            0.5552560646900269,
+            0.5905511811023622
+        ],
+        [
+            0.6094750320102432,
+            0.6075334143377886,
+            0.6222791293213829,
+            0.559892328398385,
+            0.5230769230769231
+        ],
+        [
+            0.6163682864450128,
+            0.610705596107056,
+            0.6134347275031686,
+            0.5641711229946524,
+            0.5196451204055768
+        ],
+        [
+            0.6104725415070242,
+            0.6119951040391677,
+            0.6173469387755103,
+            0.5572005383580081,
+            0.5230769230769231
+        ],
+        [
+            0.6128205128205129,
+            0.612942612942613,
+            0.616751269035533,
+            0.5583892617449664,
+            0.5275288092189501
+        ],
+        [
+            0.613607188703466,
+            0.6092233009708738,
+            0.6175349428208387,
+            0.5603217158176943,
+            0.5198463508322664
+        ],
+        [
+            0.614785992217899,
+            0.6066584463625154,
+            0.6191709844559585,
+            0.5572005383580081,
+            0.5908496732026144
+        ],
+        [
+            0.6163849154746425,
+            0.6091245376078914,
+            0.6201550387596899,
+            0.559892328398385,
+            0.5851755526657998
+        ],
+        [
+            0.6145833333333333,
+            0.6106304079110012,
+            0.6201550387596899,
+            0.5587044534412956,
+            0.5842105263157895
+        ],
+        [
+            0.6121919584954605,
+            0.6036809815950921,
+            0.6227390180878553,
+            0.5602165087956699,
+            0.5942408376963351
+        ],
+        [
+            0.614012738853503,
+            0.6136919315403423,
+            0.6149936467598475,
+            0.5603217158176943,
+            0.5235069885641678
+        ],
+        [
+            0.6085858585858587,
+            0.6112469437652812,
+            0.6171574903969271,
+            0.5622489959839357,
+            0.5209656925031766
+        ],
+        [
+            0.6121919584954605,
+            0.6123456790123456,
+            0.6209573091849936,
+            0.5625841184387618,
+            0.5916230366492146
+        ],
+        [
+            0.6116751269035533,
+            0.6102941176470589,
+            0.6157760814249365,
+            0.5591397849462365,
+            0.5265888456549935
+        ],
+        [
+            0.6151866151866152,
+            0.609452736318408,
+            0.6253229974160207,
+            0.5560053981106612,
+            0.5931758530183728
+        ],
+        [
+            0.6128205128205129,
+            0.6097560975609756,
+            0.6153846153846154,
+            0.5567567567567567,
+            0.51994851994852
+        ],
+        [
+            0.6134020618556701,
+            0.6117353308364545,
+            0.6201550387596899,
+            0.5543478260869567,
+            0.5853018372703412
+        ],
+        [
+            0.609254498714653,
+            0.6111801242236025,
+            0.6293888166449935,
+            0.5583892617449664,
+            0.5910290237467017
+        ],
+        [
+            0.6177215189873418,
+            0.6097560975609756,
+            0.6192893401015228,
+            0.5603217158176943,
+            0.5171974522292994
+        ],
+        [
+            0.6139896373056996,
+            0.607843137254902,
+            0.6233766233766234,
+            0.5568942436412315,
+            0.5885416666666666
+        ],
+        [
+            0.6151866151866152,
+            0.6136919315403423,
+            0.6132315521628497,
+            0.5572005383580081,
+            0.5241730279898219
+        ],
+        [
+            0.6104725415070242,
+            0.6161369193154035,
+            0.6213093709884466,
+            0.5630026809651475,
+            0.5224071702944942
+        ],
+        [
+            0.6183206106870228,
+            0.6142506142506143,
+            0.6224489795918368,
+            0.5630810092961488,
+            0.5209656925031766
+        ],
+        [
+            0.614785992217899,
+            0.6051660516605166,
+            0.6199740596627755,
+            0.5583892617449664,
+            0.5874673629242819
+        ],
+        [
+            0.6063694267515924,
+            0.6136919315403423,
+            0.6132315521628497,
+            0.5618279569892473,
+            0.5238709677419354
+        ],
+        [
+            0.6083650190114068,
+            0.6136919315403423,
+            0.6149936467598475,
+            0.5591397849462365,
+            0.5159642401021711
+        ],
+        [
+            0.6157760814249365,
+            0.6105006105006106,
+            0.6183206106870228,
+            0.5576407506702413,
+            0.517948717948718
+        ],
+        [
+            0.6139896373056996,
+            0.6076260762607626,
+            0.6197916666666665,
+            0.5518169582772544,
+            0.5882352941176471
+        ],
+        [
+            0.6155844155844156,
+            0.6066584463625154,
+            0.6187419768934531,
+            0.559892328398385,
+            0.5890052356020943
+        ],
+        [
+            0.6139896373056996,
+            0.605911330049261,
+            0.6151866151866152,
+            0.5572005383580081,
+            0.5928853754940712
+        ],
+        [
+            0.6102564102564102,
+            0.6053921568627452,
+            0.6225680933852139,
+            0.5618279569892473,
+            0.5984251968503936
+        ],
+        [
+            0.6122448979591836,
+            0.6109090909090908,
+            0.6181353767560663,
+            0.5591397849462365,
+            0.5197452229299363
+        ],
+        [
+            0.6101265822784809,
+            0.6114494518879415,
+            0.6165605095541402,
+            0.563758389261745,
+            0.5275288092189501
+        ],
+        [
+            0.6157760814249365,
+            0.6112469437652812,
+            0.6169665809768637,
+            0.563758389261745,
+            0.5171974522292994
+        ],
+        [
+            0.6132315521628497,
+            0.6119951040391677,
+            0.6149936467598475,
+            0.5622489959839357,
+            0.5236270753512133
+        ],
+        [
+            0.6151898734177215,
+            0.6051032806804374,
+            0.6165605095541402,
+            0.5610738255033557,
+            0.5203045685279188
+        ],
+        [
+            0.6134020618556701,
+            0.6053921568627452,
+            0.613607188703466,
+            0.5622489959839357,
+            0.5929778933680104
+        ],
+        [
+            0.6113989637305699,
+            0.6069651741293532,
+            0.6191709844559585,
+            0.557510148849797,
+            0.5865257595772787
+        ],
+        [
+            0.6103896103896104,
+            0.6115906288532675,
+            0.6229086229086229,
+            0.5582655826558266,
+            0.5921052631578947
+        ],
+        [
+            0.6124031007751937,
+            0.6081582200247219,
+            0.6229086229086229,
+            0.5552560646900269,
+            0.5897771952817824
+        ],
+        [
+            0.6106870229007634,
+            0.612942612942613,
+            0.6198979591836734,
+            0.5676037483266398,
+            0.517948717948718
+        ],
+        [
+            0.6149870801033591,
+            0.6131025957972807,
+            0.6248399487836107,
+            0.559892328398385,
+            0.5934640522875817
+        ],
+        [
+            0.615581098339719,
+            0.608058608058608,
+            0.6222791293213829,
+            0.5564516129032259,
+            0.5165394402035624
+        ],
+        [
+            0.6143958868894602,
+            0.6102941176470589,
+            0.6149936467598475,
+            0.5557046979865772,
+            0.5237483953786907
+        ],
+        [
+            0.6116751269035533,
+            0.6105006105006106,
+            0.6173469387755103,
+            0.5626666666666665,
+            0.5160462130937098
+        ],
+        [
+            0.6155844155844156,
+            0.6066584463625154,
+            0.6235446313065977,
+            0.5567567567567567,
+            0.5984251968503936
+        ],
+        [
+            0.6122448979591836,
+            0.6112469437652812,
+            0.6189258312020459,
+            0.5630026809651475,
+            0.5231958762886598
+        ],
+        [
+            0.6122448979591836,
+            0.6159509202453987,
+            0.6189258312020459,
+            0.5618279569892473,
+            0.5197452229299363
+        ],
+        [
+            0.6116129032258064,
+            0.6104218362282878,
+            0.6163682864450128,
+            0.5591397849462365,
+            0.5921052631578947
+        ],
+        [
+            0.6124523506988564,
+            0.6153846153846154,
+            0.6181353767560663,
+            0.5564516129032259,
+            0.5256410256410258
+        ],
+        [
+            0.6171875000000001,
+            0.6081582200247219,
+            0.6193548387096774,
+            0.5579514824797844,
+            0.59375
+        ],
+        [
+            0.6137841352405722,
+            0.6066584463625154,
+            0.6203346203346204,
+            0.5591397849462365,
+            0.5867014341590613
+        ],
+        [
+            0.6173469387755103,
+            0.6136919315403423,
+            0.6175349428208387,
+            0.5622489959839357,
+            0.517948717948718
+        ],
+        [
+            0.6129870129870129,
+            0.605911330049261,
+            0.6223958333333334,
+            0.5530201342281879,
+            0.5913272010512484
+        ],
+        [
+            0.614012738853503,
+            0.6136919315403423,
+            0.6206896551724138,
+            0.5583892617449664,
+            0.5177664974619289
+        ],
+        [
+            0.6149870801033591,
+            0.6142322097378278,
+            0.6233766233766234,
+            0.5618279569892473,
+            0.5925925925925926
+        ],
+        [
+            0.6181818181818182,
+            0.6056860321384426,
+            0.614785992217899,
+            0.5587044534412956,
+            0.5868421052631579
+        ],
+        [
+            0.6114649681528662,
+            0.6105006105006106,
+            0.6163682864450128,
+            0.559892328398385,
+            0.5268542199488492
+        ],
+        [
+            0.6104725415070242,
+            0.6151960784313727,
+            0.6171574903969271,
+            0.5602165087956699,
+            0.5172855313700384
+        ],
+        [
+            0.6113989637305699,
+            0.6106304079110012,
+            0.6225680933852139,
+            0.5625841184387618,
+            0.5886990801576872
+        ],
+        [
+            0.609254498714653,
+            0.605911330049261,
+            0.6175710594315246,
+            0.5594594594594594,
+            0.5893089960886572
+        ],
+        [
+            0.6082474226804124,
+            0.6117936117936119,
+            0.6237113402061856,
+            0.559892328398385,
+            0.5923984272608127
+        ],
+        [
+            0.614596670934699,
+            0.6100861008610086,
+            0.6116751269035533,
+            0.559892328398385,
+            0.5206185567010309
+        ],
+        [
+            0.6138107416879794,
+            0.6088019559902201,
+            0.6175349428208387,
+            0.5622489959839357,
+            0.5198463508322664
+        ],
+        [
+            0.6122448979591836,
+            0.6151960784313727,
+            0.6175349428208387,
+            0.5610738255033557,
+            0.5218508997429305
+        ],
+        [
+            0.6116129032258064,
+            0.6076260762607626,
+            0.622107969151671,
+            0.5557046979865772,
+            0.5874673629242819
+        ],
+        [
+            0.6171875000000001,
+            0.605911330049261,
+            0.6191709844559585,
+            0.5552560646900269,
+            0.5934640522875817
+        ],
+        [
+            0.6145833333333333,
+            0.6071871127633209,
+            0.6195372750642674,
+            0.5564516129032259,
+            0.5963060686015831
+        ],
+        [
+            0.6098191214470285,
+            0.6074074074074075,
+            0.6225680933852139,
+            0.557510148849797,
+            0.5886990801576872
+        ],
+        [
+            0.6159793814432989,
+            0.6100861008610086,
+            0.6237113402061856,
+            0.5549597855227881,
+            0.5890052356020943
+        ],
+        [
+            0.6108247422680412,
+            0.6047087980173482,
+            0.6248399487836107,
+            0.5579514824797844,
+            0.5921052631578947
+        ],
+        [
+            0.6108247422680412,
+            0.6081582200247219,
+            0.6243523316062176,
+            0.5583892617449664,
+            0.5845347313237222
+        ],
+        [
+            0.610608020698577,
+            0.6106304079110012,
+            0.6193548387096774,
+            0.5621621621621622,
+            0.5965834428383706
+        ],
+        [
+            0.6084724005134788,
+            0.6136919315403423,
+            0.6189258312020459,
+            0.5579514824797844,
+            0.5172855313700384
+        ],
+        [
+            0.6093552465233881,
+            0.612942612942613,
+            0.6206896551724138,
+            0.5576407506702413,
+            0.5186136071887034
+        ],
+        [
+            0.6108998732572876,
+            0.6085889570552148,
+            0.6198979591836734,
+            0.5641711229946524,
+            0.5217391304347826
+        ],
+        [
+            0.6137841352405722,
+            0.6071871127633209,
+            0.6269430051813472,
+            0.5587044534412956,
+            0.5939553219448095
+        ]
+    ]
+}

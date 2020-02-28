@@ -23,6 +23,6 @@ def get_classifier():
 def get_hyper_parameter_space():
     return {
         'anova__k': skopt.space.Integer(2, 14),
-        'lr__C': skopt.space.Real(0.001, 1000),
+        'lr__C': skopt.space.Real(0.001, 1000, prior='log-uniform'),
         'lr__penalty': skopt.space.Categorical(['l1', 'l2']),
     }
