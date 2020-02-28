@@ -13,6 +13,7 @@ def get_classifier():
         ('anova', SelectKBest(f_classif, k=14)),
         ('svm', SVC(
              class_weight='balanced',  # cost-sensitive learning
+             probability=True
             )
          )
     ])
